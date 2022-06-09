@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+/*   color variables */
+$clr-primary: #d50000;
+$clr-primary-hover: #2d69c459;
+$clr-primary-dark: hwb(128 15% 35% / 0.329);
+$clr-gray100: #5460ca9f;
+$clr-gray150: #ffffff43;
+$clr-gray200: #eef1f6;
+$clr-gray300: #e1e5ee;
+$clr-gray400: #767b91;
+$clr-gray500: #4f546c;
+$clr-gray600: #2a324b;
+$clr-gray700: #161d34;
+
+/*   border radius */
+$radius: 0.8rem;
+
+
+
+.card {
+    font-family: Times New Roman, Times, serif;
+    background-color: #fdfdfd70;
+    box-shadow: 0 2px 20px $clr-gray300;
+    width: 60%;
+    border: 2px solid rgba(108, 108, 117, 0.514);
+    border-radius: $radius;
+    cursor: pointer;
+
+ 
+
+  &__title {
+      text-decoration: underline solid black;
+      color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  &__description {
+    font-size: 20px;
+    color: black;
+    padding: 0 1rem;
+  }
+
+  &__btn {
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 2px solid rgb(0, 0, 0);
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: $radius;
+    transition: background 200ms ease-in, color 200ms ease-in;
+  }
+
+ 
+
+  &:hover &__btn {
+    background: green;
+    color: white;
+  }
+}

@@ -1,0 +1,26 @@
+#paymentstable {
+    font-family: Times New Roman, Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #paymentstable th{
+      height: 70px;
+  }
+  
+  #paymentstable td, #paymentstable th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #paymentstable tr:nth-child(even){background-color: #f2f2f246;}
+  
+  #paymentstable tr:hover {background-color: rgba(130, 47, 207, 0.801);}
+  
+  #paymentstable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #043baa;
+    color: white;
+  }
