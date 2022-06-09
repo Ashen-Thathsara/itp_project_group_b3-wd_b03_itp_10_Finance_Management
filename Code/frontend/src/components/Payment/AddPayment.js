@@ -74,7 +74,7 @@ export default function AddPayment(){
                 navigate(`/allpayment`)
                 swal({
                     title: "Payment Added!",
-                    text: " ",
+                    text: "  ",
                     icon: "success",
                     button: "OK",
                 });
